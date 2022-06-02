@@ -1,0 +1,76 @@
+/* Phone header */
+
+.phone-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: var(--gradient_primary);
+  border-top-left-radius: var(--app_phone_header_border_radius);
+  border-top-right-radius: var(--app_phone_header_border_radius);
+  align-items: center;
+  padding: var(--app_phone_header_padding);
+}
+
+.phone-micro {
+  height: 30px;
+  width: 130px;
+  background: var(--white);
+  border-radius: 30px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.phone-contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact-arrow {
+  width: 5px;
+  height: 5px;
+  border: 2px solid var(--white);
+  border-right: 0;
+  border-bottom: 0;
+  transform: rotate(-45deg);
+  margin-right: 6px;
+}
+
+.contact-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  max-width: 27px;
+  max-height: 27px;
+  border-radius: 50%;
+  border: var(--app_border_radio_button);
+  margin-right: 10px;
+}
+
+.contact-info {
+  color: var(--color_violet_100);
+}
+
+.contact-info h4 {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.contact-info p {
+  font-size: 10px;
+}
+
+.contact-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.contact-menu span {
+  width: 2px;
+  height: 2px;
+  background-color: var(--white);
+}

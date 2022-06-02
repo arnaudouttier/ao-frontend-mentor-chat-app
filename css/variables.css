@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+:root {
+  --font_primary: "Rubik", sans-serif;
+
+  /* General Colors */
+
+  --color_violet_100: hsl(270, 20%, 96%);
+  --color_violet_200: hsl(206, 6%, 79%);
+  --color_violet_300: hsl(270, 7%, 64%);
+  --color_violet_400: hsl(276, 100%, 81%);
+  --color_violet_500: hsl(289, 100%, 72%);
+  --color_violet_600: hsl(276, 55%, 52%);
+  --color_violet_700: hsl(271, 36%, 24%);
+  --color_violet_800: hsl(300, 7%, 3%);
+  --color_violet_900: hsl(271, 15%, 43%);
+
+  --color_primary: var(--color_violet_600);
+
+  --white: hsl(0, 0%, 100%);
+
+  --gradient_primary: linear-gradient(
+    90deg,
+    rgba(136, 56, 255, 1) 0%,
+    rgba(233, 66, 255, 1) 100%
+  );
+
+  --gradient_secondary: linear-gradient(
+    264deg,
+    rgba(136, 56, 255, 1) 0%,
+    rgba(233, 66, 255, 1) 100%
+  );
+  --gradient_third: linear-gradient(
+    0deg,
+    rgba(136, 56, 255, 1) 41%,
+    rgba(233, 66, 255, 1) 100%
+  );
+
+  /* APP */
+
+  /* chat */
+
+  --app_bg_color: var(--color_violet_100);
+
+  --app_bg_submit_button: var(--color_violet_800);
+  --app_border_radio_button: 2px solid var(--color_violet_500);
+
+  /* phone */
+
+  --app_phone_border_radius: 38px;
+  --app_phone_border_width: 10px solid var(--white);
+
+  /* phone header */
+
+  --app_phone_header_border_radius: 30px;
+  --app_phone_header_padding: 30px 15px 15px 15px;
+
+  /* phone main */
+
+  --app_main_button_bg: var(--color_violet_800);
+  --app_main_border_radio_button: 1px solid var(--color_violet_200);
+
+  /* chat intro */
+
+  --app_color_intro_title: var(--color_violet_700);
+  --app_font_weight_intro_title: 500;
+  --app_color_intro_content: var(--color_violet_300);
+  --app_lineheight_intro_content: 1.8;
+}

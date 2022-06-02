@@ -1,0 +1,9 @@
+/* Chat Phone */
+
+.chat-phone {
+  width: 250px;
+  height: auto;
+  background-color: var(--app_bg_color);
+  border: var(--app_phone_border_width);
+  border-radius: var(--app_phone_border_radius);
+}

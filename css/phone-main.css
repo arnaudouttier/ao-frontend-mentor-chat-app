@@ -1,0 +1,83 @@
+/* Phone main */
+
+.phone-main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 10px;
+}
+
+/* Message item */
+
+.message-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+[data-message-type="left"] {
+  align-self: flex-start;
+  border-bottom-left-radius: 3px;
+}
+
+[data-message-type="right"] {
+  align-self: flex-end;
+  border-bottom-right-radius: 3px;
+}
+
+.message-item h4 {
+  font-size: 13px;
+}
+
+.message-photo {
+  display: flex;
+  column-gap: 5px;
+}
+
+.message-photo img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 10px;
+}
+
+.message-price-left {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-right: 26px;
+}
+
+/* Message button */
+
+.message-button {
+  margin-top: 16px;
+  position: relative;
+}
+
+.message-button::before {
+  position: absolute;
+  content: "";
+  right: 8px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--app_main_button_bg);
+}
+
+.message-button::after {
+  position: absolute;
+  content: "";
+  right: 8px;
+  top: 50%;
+  transform: translate(-125%, -50%) rotate(45deg);
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid var(--white);
+  border-right: 2px solid var(--white);
+  background-color: transparent;
+}

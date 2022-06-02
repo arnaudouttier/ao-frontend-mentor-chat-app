@@ -1,0 +1,23 @@
+/* Chat Intro */
+
+.chat-intro {
+  text-align: center;
+}
+
+.intro-title {
+  color: var(--app_color_intro_title);
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+  font-weight: var(--app_font_weight_intro_title);
+}
+
+.intro-content {
+  color: var(--app_color_intro_content);
+  line-height: var(--app_lineheight_intro_content);
+}
+
+@media (min-width: 992px) {
+  .chat-intro {
+    text-align: left;
+  }
+}

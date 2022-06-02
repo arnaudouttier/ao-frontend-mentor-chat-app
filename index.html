@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Ao frontend mentor chat app</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="chat">
+      <section class="chat-phone">
+        <div class="phone-header">
+          <div class="phone-micro"></div>
+          <div class="phone-contact">
+            <div class="contact-arrow"><span></span><span></span></div>
+            <div class="contact-avatar">
+              <img src="images/avatar.jpg" class="avatar" alt="avatar icon" />
+            </div>
+            <div class="contact-info">
+              <h4>Samuel Green</h4>
+              <p>Available to Walk</p>
+            </div>
+          </div>
+          <div class="contact-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="phone-main">
+          <div class="message-item message-bulle-violet" data-message-type="left">
+            <p>That sounds great. I’d be happy with that.</p>
+          </div>
+          <div class="message-item message-bulle-violet" data-message-type="left">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+          <div class="message-item message-photo" data-message-type="right">
+            <img src="images/dog-image-1.jpg" alt="message image" />
+            <img src="images/dog-image-2.jpg" alt="message image" />
+            <img src="images/dog-image-3.jpg" alt="message image" />
+          </div>
+          <div class="message-item message-bulle-grey" data-message-type="right">
+            <p>Here are a few pictures. She’s a happy girl!</p>
+          </div>
+
+          <div class="message-item message-bulle-grey" data-message-type="right">
+            <p>Can you make it?</p>
+          </div>
+
+          <div class="message-item message-bulle-violet" data-message-type="left">
+            <p>
+              She looks so happy! The time we discussed works. How long shall
+              I take her out for?
+            </p>
+          </div>
+          <div class="message-item message-bulle-price" data-message-type="left">
+            <div class="message-price-left">
+              <div class="btn-message-radio"></div>
+              <p>30 minute walk</p>
+            </div>
+            <h4>$29</h4>
+          </div>
+          <div class="message-item message-bulle-price" data-message-type="left">
+            <div class="message-price-left">
+              <div class="btn-message-radio"></div>
+              <p>1 hour walk</p>
+            </div>
+            <h4>$49</h4>
+          </div>
+          <button class="btn btn-primary message-button">
+            Type a message
+          </button>
+        </div>
+      </section>
+      <section class="chat-intro">
+        <h2 class="intro-title">Simple booking</h2>
+        <p class="intro-content">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the
+          walk has been completed you can rate your walker and book again all
+          through the chat.
+        </p>
+      </section>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
